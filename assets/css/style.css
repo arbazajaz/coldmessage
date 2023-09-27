@@ -14,6 +14,10 @@
     font-family: Inter-Bold;
     src: url(../fonts/Inter-Bold.ttf);
 }
+@font-face {
+    font-family: satoshi;
+    src: url(../fonts/satoshi.otf);
+}
 
 
 html{
@@ -23,16 +27,21 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background: #EEF2F7;
     color: #000;
     font-size: 16px;
-    font-family: CerebriSansPro;
+    font-family: Inter-Regular;
+}
+section{
+    padding: 20px 0px;
 }
 
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+img{
+    max-width: 100%;
 }
 
 .form-control {
@@ -88,11 +97,22 @@ img {
 }
 
 .main-heading {
-    font-size: 36px;
-    line-height: 40px;
-    font-family: CerebriSansPro-SemiBold;
-    margin-bottom: 30px;
-    letter-spacing: -0.8px;
+    font-family: "Satoshi";
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+    color: #252b3b;
+    margin-bottom: 20px;
+}
+.main-para {
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgba(37, 43, 59, 0.475);
+}
+
+.side-img{
+    max-height: 400px;
 }
 
 /* Media Query */
