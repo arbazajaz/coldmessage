@@ -1,0 +1,77 @@
+
+.register h3{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Inter-Medium;
+}
+.register .logo {
+       width: 170px;
+       /* margin-bottom: 50px; */
+       position: absolute;
+
+   }
+
+   .register .register-img {
+       background-image: url('../images/registration/signUp.jpeg');
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       max-width: 100%;
+       min-height: 620px;
+   }
+
+   .register form {
+    margin-top: 50px;
+       padding: 0px 120px;
+   }
+
+   .register label {
+    font-size: 13px;
+    font-family: Inter-regular;
+     
+   }
+   .register input {
+       background-color: rgba(255, 255, 255, 1);
+       border: 1px solid rgb(189, 189, 189);
+       color: rgba(9, 23, 71, 1);
+       font-family: Inter-Regular;
+   }
+
+   .register button.submit {
+    border: none;
+       background-image: -webkit-linear-gradient(left, rgb(147, 110, 255) 0%, rgb(11, 196, 255) 100%);
+       padding: 10px 100px;
+       font-family: Inter-Bold;
+   }
+   .register a.account{
+    font-size: 13px ;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(21, 0, 66, 1);
+    font-family: Inter-medium;
+   }
+   @media only screen and (max-width: 1200px) {
+    .register h3{
+        font-size: 33px;
+    }
+    .register form {
+           padding: 0px 80px;
+       }
+
+    
+   }
+   @media only screen and (max-width: 992px) {
+    .register h3{
+        font-size: 30px;
+    }
+    .register form {
+        padding: 0px 40px;
+    }
+   
+   }
+   @media only screen and (max-width: 768px) {
+   
+   }
+   @media only screen and (max-width: 576px) {
+   
+   }
